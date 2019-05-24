@@ -1,0 +1,1796 @@
+.video-nav-hot:before {
+    content: "";
+    display: inline-block;
+    background: url('../img/fire.png') no-repeat;
+    width: 14px;
+    height: 14px;
+    position: relative;
+    left: -3px;
+    top: 2px;
+}
+
+/* 头部介绍开始 */
+.top {
+    height: 42px;
+    width: 100%;
+    background-color: #fff;
+    border-top: 1px solid #b6b4b6;
+    border-bottom: 1px solid #b6b4b6;
+    position: relative;
+}
+
+.top_typePage {
+    width: 980px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.DNF_bg {
+    width: 980px;
+    margin: -40px auto;
+    position: relative;
+    z-index: 2;
+}
+
+.top_top {
+    width: 700px;
+    height: 386px;
+    top: 37px;
+    right: 473px;
+    position: absolute;
+    display: none;
+
+}
+
+.top .top_left {
+    height: 40px;
+    position: relative;
+    display: flex;
+}
+
+.top h1 {
+    display: flex;
+    height: 42px;
+    box-sizing: border-box;
+    z-index: 99;
+
+}
+
+.top h1 a {
+    height: 42px;
+    width: 221px;
+    text-indent: -9999px;
+    display: inline-block;
+    background: url('../img/index.ost-bg.png') no-repeat 1px -40px;
+}
+
+
+.DNF {
+    display: inline-block;
+}
+
+.DNF>img {
+    height: 40px;
+    cursor: pointer;
+}
+
+.top_right {
+    display: flex;
+    line-height: 40px;
+    font-size: 12px;
+    font-display: '宋体';
+}
+
+.top_right .top_protect {
+    width: 99px;
+    background: url('../img/index.logo.png') no-repeat left center;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.top_right .top_game {
+    width: 118px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    cursor: pointer;
+    position: relative;
+}
+
+.top_game span {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    margin-top: -9px;
+    background: url(../img/index.ost-bg.png) no-repeat -143px -129px;
+
+}
+
+.top_right .top_game:hover span {
+    background-position-x: -163px;
+}
+
+.top_right .top_game:hover {
+    color: #ff4e00;
+}
+
+.top_nav {
+    height: 90px;
+    width: 100%;
+    background-color: #0d151e;
+}
+
+.top_nav .typePage {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.top_nav .typePage {
+    height: 90px;
+    display: flex;
+}
+
+.top_nav .top_game_logo a {
+    width: 200px;
+    height: 54px;
+    margin-right: 23px;
+    margin-top: 12px;
+    display: inline-block;
+}
+
+.top_game_nav ul {
+    display: flex;
+    height: 84px;
+}
+
+.top_game_nav ul li {
+    list-style: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: #fff;
+    height: 84px;
+    line-height: 84px;
+    margin-left: 14px;
+    margin-right: 14px;
+}
+.top_game_nav ul li a{
+    color: #fff;
+}
+
+.top_game_nav ul li:hover a{
+    color: rgb(218, 175, 84);
+}
+
+
+.top_enter {
+    display: flex;
+    align-items: center;
+    margin-left: 58px;
+}
+
+.top_enter>span {
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+    border-radius: 44px;
+    border: 1px solid rgb(218, 175, 84);
+}
+
+.top_enter .we_enter {
+    display: inline-block;
+    margin-left: 7px;
+
+}
+
+
+.top_enter .we_enter i,
+.top_enter .we_enter b {
+    color: #fff;
+    font-size: 16px;
+    display: block;
+    cursor: pointer;
+    font-weight: normal;
+    font-style: normal;
+    margin-bottom: 9px;
+}
+
+.top_enter .we_enter b {
+    font-size: 14px;
+    cursor: default;
+    color: #858792;
+}
+
+/* 头部介绍结束 */
+
+/* 视频播放开始 */
+body {
+    background: url('../img/game.top_videobg.jpg') no-repeat;
+    background-position-y: 132px;
+}
+
+.top_check {
+    height: 460px;
+    width: 100%;
+    margin: 0 auto;
+    background-image: 100% 100%;
+}
+
+.top_check a {
+    display: inline-block;
+    height: 460px;
+    width: 100%;
+}
+
+.top_video_match {
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top_video {
+    width: 820px;
+    height: 500px;
+    position: relative;
+}
+
+.top_video .top_video_head {
+    width: 820px;
+    height: 44px;
+    border-bottom: 1px solid #211e1f;
+    background-color: #373534;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    z-index: 99;
+}
+
+.top_video .top_video_head .top_video_head_left {
+    font-size: 20px;
+    color: #fff;
+    line-height: 44px;
+}
+
+.top_video_head_left:first-child {
+    margin-left: 7px;
+}
+
+.top_video .top_video_head .top_video_head_right,
+.top_video .top_video_head .top_video_head_right ul {
+    width: 70px;
+    height: 24px;
+    border-radius: 5px;
+    background-color: #f3c258;
+    margin-top: 12px;
+    margin-right: 20px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.top_video .top_video_head .top_video_head_right ul {
+    margin-top: 2px;
+}
+
+.disappear {
+    display: none;
+}
+
+.top_video_head_right i {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    transform: rotate(180deg);
+    margin-left: 10px;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: url('../img/arrow.png') no-repeat;
+}
+
+.top_video_body video {
+    width: 820px;
+    height: 500px;
+}
+
+
+
+
+.top_match {
+    width: 360px;
+    height: 500px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.top_match .top_match_title {
+    width: 360px;
+    height: 44px;
+    color: #fff;
+    font-size: 20px;
+    line-height: 44px;
+    padding-left: 12px;
+    box-sizing: border-box;
+    background-color: #373738;
+    border-bottom: 1px solid #211e1f;
+}
+
+.top_match>.top_match_team {
+    width: 360px;
+    height: 455px;
+    background-color: #373536;
+    overflow: hidden;
+    overflow-y: auto;
+
+}
+
+.top_match_team::-webkit-scrollbar {
+    width: 10px;
+    height: 1px;
+    background: #343434;
+
+}
+
+.top_match_team::-webkit-scrollbar-button {
+    display: none;
+}
+
+.top_match_team::-webkit-scrollbar-thumb {
+    height: 64px;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, .2);
+    background: #dfb251;
+
+}
+
+.top_match_team::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: #363636;
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, .2);
+}
+
+.match_regular {
+    width: 350px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    padding: 0 12px 10px 12px;
+}
+
+.match_regular_day {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.match_box {
+    width: 326px;
+    box-sizing: border-box;
+    border: 1px solid #daaf54;
+}
+
+.match_box .match_title {
+    width: 324px;
+    height: 27px;
+    box-sizing: border-box;
+    font-size: 12px;
+    color: #fff;
+    border-bottom: 1px solid #daaf54;
+    line-height: 26px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.match_box .match_title>span {
+    display: inline-block;
+    width: 27px;
+    height: 18px;
+}
+
+.match_box .match_title span>img {
+    width: 27px;
+}
+
+.match_box .match_title b {
+    margin-left: -20px;
+}
+
+.match_box .match_title b>i {
+    font-style: normal;
+    color: #daaf54;
+    margin-left: 3px;
+}
+
+.match_box .match_team {
+    width: 324px;
+    height: 63px;
+    box-sizing: border-box;
+    padding: 0 5px 6px;
+    border-bottom: 1px solid #daaf54;
+    display: flex;
+    justify-content: space-around;
+}
+
+.match_time {
+    display: flex;
+    margin-top: 6px;
+    margin-left: 5px;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.match_team .match_time>p {
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+
+}
+
+.match_team .match_time>div {
+    width: 68px;
+    height: 24px;
+    background: url('../img/begin.png') no-repeat;
+}
+
+.match_team .match_team_left {
+    width: 84px;
+    height: 61px;
+    text-align: center;
+}
+
+.match_team .match_team_left>p {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 40px;
+    overflow: hidden;
+    margin: 1px auto;
+}
+
+.match_team .match_team_left>p>img {
+    display: block;
+    margin: 6px auto;
+    width: 30px;
+}
+
+.match_team .match_team_left>div {
+    font-size: 14px;
+    color: #fff;
+    margin: 4px auto;
+}
+
+.match_team .match_vs {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    line-height: 63px;
+}
+
+/* 视频播放结束 */
+
+/* 最新资讯开始 */
+.top_news {
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.top_news .top_message {
+    width: 800px;
+    height: 500px;
+    box-sizing: border-box;
+}
+
+.top_message .top_message_title {
+    height: 40px;
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: 2px solid #ddd;
+    position: relative;
+    display: flex;
+    justify-content: space-between
+}
+
+.top_message_title .message_title {
+    line-height: 40px;
+    font-size: 22px;
+    margin-left: 5px;
+    color: #333;
+}
+
+.top_message_title .top_message_nav>ul {
+    display: flex;
+    width: 100%;
+    line-height: 38px;
+    font-size: 16px;
+    color: #666;
+}
+
+.top_message_title .top_message_nav {
+    margin-left: -50px;
+}
+
+.top_message_nav>ul li {
+    padding: 0 16px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.top_message_nav>ul li:hover {
+    color: #f3c258;
+    border-bottom: 2px solid #f3c258;
+}
+
+.top_message_title .more {
+    font-size: 16px;
+    line-height: 40px;
+    cursor: pointer;
+    color: #666;
+}
+
+.top_news .top_message_content {
+    width: 100%;
+    height: 460px;
+    font-size: 16px;
+    color: #333;
+}
+
+.top_message_content ul li .li_top {
+    display: flex;
+}
+
+.top_message_content ul li {
+    margin-top: 5px;
+}
+
+.top_message_content ul li:first-child {
+    margin-top: 10px;
+}
+
+.top_message_content ul li .li_top .message_type {
+    width: 60px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    border-radius: 5px;
+    background: #d5d5d5;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.top_message_content ul li .li_top .message_content {
+    width: 640px;
+    font-size: 18px;
+    margin-left: 20px;
+    line-height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+.top_message_content ul li .li_top .message_time {
+    line-height: 33px;
+    color: #999;
+    margin-right: 30px;
+}
+
+.more_content {
+    width: 660px;
+    margin-left: 80px;
+    display: flex;
+
+}
+
+.more_content .more_content_TB {
+    display: flex;
+    width: 230px;
+    height: 140px;
+    overflow: hidden;
+}
+
+.more_content .more_content_TB img {
+    width: 230px;
+    height: 140px;
+}
+
+
+.more_content .more_content_minute {
+    font-size: 14px;
+    width: 370px;
+    height: 110px;
+    float: left;
+    margin-left: 15px;
+    line-height: 28px;
+    color: #656565;
+}
+
+.more_content .more_content_minute p {
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+.more_content .more_content_minute>div {
+    font-size: 12px;
+    color: #aaa;
+    margin-top: 7px;
+}
+
+.top_news .top_integral {
+    width: 360px;
+    height: 500px;
+}
+
+.top_integral_title {
+    height: 40px;
+    width: 100%;
+    border-bottom: 2px solid #ddd;
+    display: flex;
+}
+
+.top_integral_title .integral_title {
+    line-height: 40px;
+    font-size: 22px;
+    margin-left: 10px;
+    color: #333;
+}
+
+.top_integral_title .top_integral_title_nav {
+    padding: 0 16px;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+    color: #f3c258;
+    font-weight: 700;
+    border-bottom: 2px solid #f3c258;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.top_integral .top_integral_content {
+    height: 450px;
+    margin-top: 10px;
+}
+
+.team_address {
+    display: flex;
+    height: 44px;
+}
+
+.team_address .content_east {
+    text-align: center;
+    width: 180px;
+    line-height: 44px;
+    font-size: 16px;
+    cursor: pointer;
+    background: #f3c258;
+    color: #fff;
+}
+
+.team_address .content_west {
+    background: #f4f5f4;
+    line-height: 44px;
+    text-align: center;
+    width: 180px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+}
+
+.top_integral_content .team_score {
+    height: 405px;
+    font-size: 16px;
+    overflow: auto;
+}
+
+.team_score::-webkit-scrollbar {
+    width: 10px;
+    height: 1px;
+    background: #e3e3e3;
+
+}
+
+.team_score table {
+    border-collapse: collapse;
+    border-spacing: 0 10px;
+    color: #363636;
+}
+
+.team_score table tr {
+    display: block;
+    margin-top: 5px;
+    width: 360px;
+    display: flex;
+    border-spacing: 10px;
+}
+
+.team_score table th {
+    width: 60px;
+    background: #f7f7f7;
+    line-height: 40px;
+    color: #363636;
+    font-weight: 400;
+}
+
+.team_score table th:nth-child(2) {
+    width: 120px;
+}
+
+.team_score table td:nth-child(2) {
+    width: 120px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.team_score table td:nth-child(2) img {
+    height: 28px;
+    display: inline-block;
+    width: 28px;
+    background-position: 50%;
+    background-size: 100% 100%;
+    margin-top: 6px;
+
+}
+
+.team_score table td:nth-child(2) span {
+    flex: 2;
+}
+
+.team_score table td {
+    width: 60px;
+    text-align: center;
+    line-height: 41px;
+}
+
+/* 最新资讯结束 */
+
+/* 最新赛事开始 */
+.hot_Competition {
+    width: 1200px;
+    ;
+    height: 320px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hot_Competition .Competition_part_video {
+    width: 800px;
+}
+
+.Competition_part_video a {
+    display: inline-block;
+    position: relative;
+    width: 260px;
+    height: 130px;
+    box-sizing: border-box;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.Competition_video {
+    margin-top: 10px;
+}
+
+.Competition_part_video a:nth-child(1) {
+    background: url('../img/112.jpg') no-repeat;
+}
+
+.Competition_part_video a:nth-child(2) {
+    background: url('../img/phpu5Ld7I5692498381557146021.jpg') no-repeat;
+}
+
+.Competition_part_video a:nth-child(3) {
+    background: url('../img/phpGVQc2F8800523861557146043.png') no-repeat;
+    margin-right: 0;
+}
+
+.Competition_part_video a:nth-child(4) {
+    background: url('../img/phpSfYxlP2675359771535635130.jpg') no-repeat;
+}
+
+.Competition_part_video a:nth-child(5) {
+    background: url('../img/phpxzx1uH16434513141535689244.jpg') no-repeat;
+}
+
+.Competition_part_video a:nth-child(6) {
+    background: url('../img/phpaC2pZu4263359451556186559.jpg') no-repeat;
+    margin-right: 0;
+
+}
+
+.Competition_video a>.cpmpetiton_name {
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, .6);
+    line-height: 30px;
+    text-indent: 20px;
+    color: #f3c258;
+    font-size: 14px;
+}
+
+.Competition_video a>.working {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: inline-block;
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 5px;
+    width: 64px;
+    color: #363636;
+    background-color: #f3c258;
+}
+
+.Competition_video a>.working>.moving {
+    width: 1.5px;
+    display: none;
+    background: #fff;
+    transform: rotate(10deg);
+    left: 0px;
+    height: 20px;
+    position: absolute;
+}
+
+.buy_ticket {
+    width: 385px;
+    height: 320px;
+}
+
+.buy_ticket .Competition_ticket {
+    margin-top: 10px;
+}
+
+.Competition_ticket .ticket {
+    height: 40px;
+    margin-left: 2px;
+    display: inline-block;
+    font-size: 12px;
+    background: #f3c258;
+    width: 100%;
+    height: 40px;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    line-height: 40px;
+}
+
+.Competition_ticket .ticket_money {
+    margin-top: 5px;
+    background: #f4f5f4;
+    width: 100%;
+    height: 225px;
+    display: flex;
+}
+
+
+.ticket_money .ticket_tp {
+    position: relative;
+    display: flex;
+}
+
+.ticket_tp img {
+    width: 157px;
+    height: 212px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.ticket_tp .ticket_working {
+    display: block;
+    padding: 3px 5px;
+    border-radius: 5px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-size: 12px;
+    color: #fff;
+    background: #cc2a34;
+}
+
+.ticket_money .ticket_content {
+    width: 210px;
+    font-size: 14px;
+    margin-left: 8px;
+    font-weight: 700;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ticket_content .ticket_title {
+    font-size: 18px;
+    margin-top: 4px;
+}
+
+.ticket_content .ticket_time>span {
+    width: 135px;
+    font-weight: 400;
+    float: right;
+}
+
+.ticket_content .ticket_address>span {
+    width: 135px;
+    font-weight: 400;
+    float: right
+}
+
+.ticket_content .ticket_moneys>i {
+    padding: 2px 5px;
+    border-radius: 5px;
+    background: #f3c258;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ticket_content a {
+    width: 212px;
+    height: 36px;
+    display: block;
+    margin-bottom: 10px;
+    line-height: 36px;
+    text-align: center;
+    color: #363636;
+    font-size: 18px;
+    background: url('../img/buynow.png') no-repeat;
+}
+
+/* 最新赛事结束 */
+
+/* 视频中心开始 */
+.video_center {
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.video_center .videos {
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.video_center .videos a {
+    display: inline-block;
+    width: 226px;
+    margin-top: 20px;
+    margin-right: 17px;
+
+}
+
+.video_center .videos a>.video_img {
+    position: relative;
+    width: 226px;
+    height: 140px;
+    overflow: hidden;
+}
+
+.video_center .videos a>.video_name {
+    margin-top: 5px;
+    color: #000;
+    font-size: 16px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+    height: 48px;
+    display: flex;
+    justify-content: space-around;
+    line-height: 24px;
+}
+
+.video_center .videos a:nth-child(5),
+.video_center .videos a:nth-child(10) {
+    margin-right: 0;
+}
+
+.videos .video_img {
+    position: relative;
+    width: 226px;
+    height: 140px;
+    overflow: hidden;
+}
+
+.videos .video_img>img {
+    height:100%;
+}
+
+.videos .video_img .video_nums {
+    position: absolute;
+    width: 100%;
+    background: #000;
+    opacity: .8;
+    bottom: 0;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.video_img .video_nums i {
+
+    display: inline-block;
+    background: url('../img/watch.png') no-repeat;
+    width: 12px;
+    height: 12px;
+    position: relative;
+    left: -3px;
+    top: 1px;
+}
+
+.video_img .video_nums .video_num {
+    font-size: 12px;
+    color: #fff;
+    margin-left: 10px;
+    line-height: 25px;
+}
+
+.video_img .video_nums .video_day {
+    font-size: 12px;
+    color: #fff;
+    float: right;
+    margin-right: 10px;
+    line-height: 26px;
+}
+
+.video_start {
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 226px;
+    height: 140px;
+    background: #000;
+    opacity: .8;
+}
+
+ .video_start img {
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: 50px auto;
+}
+
+.video_bottom {
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+/* 视频中心结束 */
+
+/* 精品推荐开始 */
+.recommendation {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: space-between;
+}
+
+.recommendation .recommendation_left {
+    width: 840px;
+}
+
+.recommendation_left .recommendation_tp {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.recommendation_tp .recommendation_tp_left {
+    width: 410px;
+    height: 385px;
+    overflow: hidden;
+}
+
+.recommendation_tp .recommendation_tp_right {
+    width: 410px;
+    height: 385px;
+    overflow: hidden;
+}
+
+
+.recommendation_tp_right .recommendation_tp_top {
+    width: 410px;
+    height: 184px;
+    margin-bottom: 17px;
+}
+
+.recommendation_tp_right .recommendation_tp_bottom {
+    width: 410px;
+    height: 184px;
+    margin-bottom: 17px;
+}
+
+.recommendation_MVP {
+    width: 340px;
+    height: 440px;
+}
+
+.recommendation_MVP .mvp_content {
+    height: 450px;
+    margin-top: 10px;
+}
+
+.mvp_content .mvp_plays {
+    height: 349px;
+    font-size: 16px;
+    margin-top: 5px;
+    overflow: hidden;
+    overflow-y: auto;
+    position: relative;
+}
+
+.mvp_plays::-webkit-scrollbar {
+    width: 10px;
+    height: 1px;
+    background: #e3e3e3;
+
+}
+
+.mvp_plays::-webkit-scrollbar-thumb {
+    background: #f3c258;
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, .2);
+    height: 100px;
+}
+
+
+.mvp_plays::-webkit-scrollbar-track {
+    background: #e3e3e3;
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, .2);
+}
+
+.mvp_plays .mvps {
+    width: 338px;
+    height: 337px;
+    border: 1px solid #eee;
+}
+
+.mvp_plays .mvps .mvps_tp {
+    height: 100%;
+    background: url('../img/捕获9.PNG') no-repeat;
+}
+
+.mvp_plays .mvps_mouths {
+    position: absolute;
+    top: 0;
+    right: 0;
+    float: right;
+    width: 85px;
+    height: 24px;
+    background: #f3c258;
+    margin: 5px 5px 0 0;
+    cursor: pointer;
+}
+
+.mvp_plays .mvps_mouths>ul {
+    width: 85px;
+    display: block;
+    font-size: 14px;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    max-height: 0;
+    transition: max-height .3s ease-in;
+    z-index: 999;
+}
+
+.mvp_plays .mvps_mouths>ul>li {
+    text-align: center;
+    width: 85px;
+    height: 24px;
+    line-height: 24px;
+    list-style: none;
+    background: #fff;
+    text-indent: 0;
+}
+
+.mvp_plays .mvps_mouths>ul>li.selected {
+    background: #f3c258 !important;
+}
+
+.mvp_plays .mvps_mouths p {
+    text-indent: -5px;
+    line-height: 24px;
+    font-size: 14px;
+    color: #363636;
+    border-radius: 5px;
+    text-align: center;
+    width: 85px;
+    height: 24px;
+    background: #f3c258;
+    position: relative;
+}
+
+.mvp_plays .mvps_mouths p>i {
+    display: inline-block;
+    color: #363636;
+    width: 8px;
+    height: 8px;
+    margin-left: 10px;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: url('../img/period-arrow.png') no-repeat;
+}
+
+.mvps_best .mvps_best_top {
+    width: 330px;
+    height: 200px;
+    display: inline-block;
+}
+
+.mvps_best_top .top_one {
+    position: relative;
+    width: 100px;
+    margin: 0 auto;
+}
+
+.top_one .top_head {
+    position: relative;
+    margin: 0 auto;
+    width: 90px;
+    height: 103px;
+    background: url('../img/top1.png') no-repeat;
+    background-size: 90px 103px;
+    display: flex;
+}
+
+.top_one .top_head img {
+    position: absolute;
+    top: 14px;
+    width: 88px;
+    height: 88px;
+    border-radius: 44px;
+    background: #000;
+    display: inline-block;
+    align-self: center;
+    text-align: center;
+    justify-content: center;
+    z-index: -1;
+}
+
+
+.top_one .top_head .mvp_name {
+    position: absolute;
+    bottom: 0;
+    right: -7px;
+    width: 104px;
+    height: 20px;
+    background: url('../img/top1-tips.png') no-repeat;
+    margin: 0 auto;
+    font-size: 12px;
+    color: #fff;
+    line-height: 18px;
+    text-align: center;
+}
+
+.top_one .top_time {
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+}
+
+.mvps_best_top #top_two {
+    position: relative;
+    top: -70px;
+    width: 90px;
+    margin-left: 10px;
+    float: left;
+}
+
+.mvps_best_top #top_three {
+    position: relative;
+    top: -70px;
+    width: 90px;
+    margin-right: 10px;
+    float: right;
+}
+
+.mvps_best_top #top_two>.top_head {
+    background: url('../img/top2.png') no-repeat;
+}
+
+.mvps_best_top #top_three>.top_head {
+    background: url('../img/top3.png') no-repeat;
+}
+
+.mvps_best_top #top_two>.top_head>.mvp_name {
+    background: url('../img/top2-tips.png') no-repeat;
+}
+
+.mvps_best_top #top_three>.top_head>.mvp_name {
+    background: url('../img/top3-tips.png') no-repeat;
+}
+
+.mvps_best .mvps_best_bottom {
+    position: relative;
+    width: 95%;
+    margin: 0 auto;
+    font-size: 14px;
+
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.mvps_best_bottom tr {
+    display: block;
+    border-color: grey;
+    margin-top: 5px;
+}
+
+.mvps_best_bottom tr>th {
+    width: 110px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.mvps_best_bottom tr>td {
+    width: 110px;
+    text-align: center;
+    line-height: 25px;
+    background: #eee;
+}
+
+/* 精品推荐结束 */
+
+
+/* 战队介绍开始 */
+.team_recommend {
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.team_recommend .team_recommend_teams {
+    width: 820px;
+}
+
+.team_recommend_teams_bottpm {
+    margin-top: 10px;
+}
+
+.team_recommend_teams_bottpm .east_team_nav {
+    width: 820px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.east_team_nav .team_left,
+.east_team_nav .team_right {
+    display: block;
+    margin: 25px 0;
+    cursor: pointer;
+    width: 18px;
+    height: 60px;
+    border-radius: 4px;
+    background: url('../img/team-prev.png') no-repeat #8b8b8b;
+    background-position: 4px;
+}
+
+.east_team_nav .team_right {
+    background: url('../img/team-next.png') no-repeat #8b8b8b;
+    background-position: 4px;
+
+}
+
+.east_team_nav .team_nav {
+    width: 780px;
+    height: 127px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.east_team_nav .team_nav>ul {
+    position: relative;
+    display: flex;
+    width: 1500px;
+}
+
+.east_team_nav .team_nav>ul>li {
+    width: 113px;
+    height: 119px;
+    margin: 0 8px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.background {
+    background: url('../img/team-active.png') no-repeat;
+
+}
+
+.team_nav>ul>li img {
+    height: 85px;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.team_nav>ul>li>div {
+    text-align: center;
+    font-size: 12px;
+}
+
+.team_maincon {
+    width: 820px;
+    height: 280px;
+    background: #eee;
+}
+
+.team_maincon .team_maincon_top {
+    padding: 10px 35px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.team_maincon_top .team_maincon_img {
+    width: 130px;
+    height: 150px;
+    display: flex;
+    margin-top: 15px;
+}
+
+.team_maincon_top .team_maincon_img>img {
+    max-width: 100%;
+    align-self: center;
+    width: 130px;
+
+    height: 130px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.team_maincon_top .team_maincon_content {
+    width: 580px;
+}
+
+.team_maincon_content h4 {
+    display: block;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 45px;
+}
+
+.team_maincon_content p {
+    color: #363636;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.team_maincon .team_maincon_bottom {
+    padding: 10px 35px 30px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.team_maincon_bottom .team_mans {
+    width: 130px;
+    font-size: 16px;
+    line-height: 85px;
+    text-align: center;
+}
+
+.team_maincon_bottom .team_people {
+    width: 560px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.team_people .team_people_left,
+.team_people .team_people_right {
+    display: block;
+    margin: 24px 0;
+    width: 18px;
+    height: 36px;
+    cursor: pointer;
+    border-radius: 4px;
+    background: url('../img/duty-prev.png') no-repeat;
+    background-position: 0 -36px;
+}
+
+.team_people .team_people_right {
+    background: url('../img/duty-next.png') no-repeat;
+    background-position: 0 -36px;
+}
+
+.team_people .team_people_nav {
+    width: 505px;
+    height: 89px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.team_people .team_people_nav>ul {
+    position: relative;
+    display: flex;
+    width: 1600px;
+    height: 89px;
+    left: 0px;
+}
+
+.team_people_nav>ul>li {
+    width: 85px;
+    height: 85px;
+    background: #f3c258;
+    border-radius: 50%;
+    border: 2px solid #f3c258;
+    margin: 0 6px;
+    cursor: pointer;
+    display: flex;
+    overflow: hidden;
+}
+
+.team_people_nav>ul>li>img {
+    max-width: 100%;
+    width: 85px;
+    height: 85px;
+    align-self: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.team_recommend .narrate {
+    width: 360px;
+    height: 505px;
+}
+
+.narrate .narrate_content {
+    margin-top: 10px;
+}
+
+.narrate_content .narrate_mans {
+    height: 420px;
+    font-size: 16px;
+    margin-top: 8px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.narrate_mans::-webkit-scrollbar {
+    width: 10px;
+    height: 1px;
+    background: #e3e3e3;
+
+}
+
+.narrate_mans::-webkit-scrollbar-thumb {
+    background: #f3c258;
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, .2);
+    height: 100px;
+}
+
+
+.narrate_mans::-webkit-scrollbar-track {
+    background: #e3e3e3;
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, .2);
+}
+
+.narrate_mans .narrate_mans_list {
+    width: 360px;
+    height: 100px;
+    background: #f4f5f4;
+    margin-bottom: 3px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.narrate_mans_list .narrate_mans_tp {
+    position: relative;
+    width: 90px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.narrate_mans_tp .narrate_mans_right {
+    background: #cc2a34;
+    border: 1px solid #f3c258;
+    position: absolute;
+    left: -7px;
+    width: 35px;
+    height: 20px;
+    border-radius: 5px;
+    line-height: 20px;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+}
+
+.narrate_mans_tp .narrate_tp {
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+    border: 1px solid #f3c258;
+    display: flex;
+    overflow: hidden;
+}
+
+.narrate_mans_list .narrate_mans_con {
+    width: 220px;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+.narrate_mans_con .narrate_mans_name {
+    width: 200px;
+    color: #363636;
+    height: 35px;
+    line-height: 35px;
+    border-bottom: 1px solid #000;
+    border-image: url('../img/commentary-splite.png') 185 1 round;
+}
+
+.narrate_mans_name b {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.narrate_mans_name span {
+    font-size: 14px;
+}
+
+.narrate_mans_con .narrate_mans_style {
+    font-size: 14px;
+    line-height: 24px;
+    color: #363636;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+}
+
+/* 战队介绍结束 */
+
+/* 合作伙伴开始 */
+.partner {
+    width: 1200px;
+    margin: 0 auto;
+    height: 400px;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+.partner .partner_con>ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.partner .partner_con li:nth-child(5),
+.partner .partner_con li:nth-child(10) {
+    margin-right: 0;
+}
+
+.partner .partner_con li {
+    position: relative;
+    width: 230px;
+    height: 120px;
+    border: 1px solid #f3c258;
+    border-radius: 8px;
+    margin-top: 15px;
+    margin-right: 10px;
+    display: flex;
+}
+
+.partner_con li>img {
+    align-self: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* 合作伙伴结束 */
+
+/* 尾部证书开始 */
+.bottom {
+    position: relative;
+    z-index: 2;
+    height: 362px;
+    background: url('../img/bg_footer.jpg') no-repeat center 0;
+}
+
+.foot {
+    position: relative;
+    background: none;
+    width: 1200px;
+    padding-top: 80px;
+    color: #000;
+    font: 12px/20px "微软雅黑", "宋体";
+    min-width: 960px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.foot_tencent {
+    display: block;
+    height: 66px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #d4d4d4;
+}
+
+.bottom .foot_tencent>a {
+    display: inline-block;
+    width: 285px;
+    height: 64px;
+    margin: 0;
+    background: url('../img/spr.png') no-repeat;
+}
+
+.bottom .foot_tencent>a.TT {
+    width: 70px;
+    height: 64px;
+    margin: 0;
+    background: url('../img/spr.png') no-repeat -285px 0;
+}
+
+.foot_end {
+    width: 100%;
+    display: flex;
+}
+
+.foot .foot_left .tip {
+    color: #333;
+    font-weight: bold;
+}
+
+.foot .foot_left p>i {
+    font-style: normal;
+    margin-right: 12px;
+    color: #6d6d6d;
+}
+
+.foot .foot_left p:last-child {
+    margin-top: 6px;
+    color: #6d6d6d;
+}
+
+.foot_end .foot_right {
+    width: 100%;
+}
+
+.foot_end .foot_right div ul {
+    display: flex;
+}
+
+.foot_right div ul li:nth-child(2n) {
+    margin: 0 2px;
+}
+
+.foot_end .foot_right p {
+    color: #6d6d6d;
+    margin-top: 5px;
+}
+/* 尾部证书结束 */

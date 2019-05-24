@@ -1,0 +1,146 @@
+{ 
+    "editor.tabSize": 2,
+    "editor.lineHeight": 24,
+    "editor.renderLineHighlight": "none",
+    "editor.renderWhitespace": "none",
+    "editor.fontFamily": "Consolas",
+    "editor.fontSize": 15,
+    "editor.cursorBlinking": "smooth",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.formatOnSave": false,
+    "editor.snippetSuggestions": "top",
+    "editor.wordWrapColumn": 200,
+    "editor.wordWrap": "off",
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": false
+    },
+    "terminal.integrated.shell.windows": "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "javascript.suggestionActions.enabled": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "javascript.implicitProjectConfig.experimentalDecorators": true,
+    
+    "typescript.validate.enable": true,
+    "workbench.iconTheme": "eq-material-theme-icons",
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.colorTheme": "Monokai Dimmed",
+    "workbench.colorCustomizations": {
+       
+        "editorIndentGuide.activeBackground": "#ff0000"
+    },
+    
+    "breadcrumbs.enabled": true,
+    "minapp-vscode.disableAutoConfig": true,
+    "open-in-browser.default": "chrome",
+    
+    "search.exclude": {
+        "**/dist": true,
+        "**/build": true,
+        "**/elehukouben": true,
+        "**/.git": true,
+        "**/.gitignore": true,
+        "**/.svn": true,
+        "**/.DS_Store": true,
+        "**/.idea": true,
+        "**/.vscode": false,
+        "**/yarn.lock": true,
+        "**/tmp": true
+    },
+   
+    "files.associations": {
+       
+        "*.wxss": "css",
+        "*.cjson": "jsonc",
+        "*.wxs": "javascript"
+    },
+    
+    "emmet.triggerExpansionOnTab": true,
+    
+    "emmet.syntaxProfiles": {
+        "vue-html": "html",
+        "vue": "html",
+        "javascript": "javascriptreact",
+        "xml": {
+            "attr_quotes": "single"
+        }
+    },
+   
+    "emmet.includeLanguages": {
+        "jsx-sublime-babel-tags": "javascriptreact",
+        "wxml": "html"
+    },
+    "emmet.showSuggestionsAsSnippets": true,
+    "vetur.format.defaultFormatter.js": "vscode-typescript",
+    "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+    
+    
+    "editor.formatOnPaste": true,
+    
+    "eslint.enable": true,
+    
+    "eslint.autoFixOnSave": true,
+
+    "eslint.options": {
+        "configFile": "E:/aaaworkspace/all-template/template-pc-vue-elementui/.eslintrc.js",
+        "plugins": ["html"]
+    },
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        {
+            "language": "html",
+          
+            "autoFix": true
+        },
+        {
+            "language": "vue",
+            "autoFix": true
+        },
+        "typescript",
+        "typescriptreact"
+    ],
+   
+    "git.autofetch": false,
+   
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": false,
+        "suppressShowKeyBindingsNotice": true,
+        "suppressUpdateNotice": true,
+        "suppressWelcomeNotice": false
+    },
+   
+    "launch": {
+        "configurations": [{
+                "type": "node",
+                "request": "launch",
+                "name": "Node.js",
+                "program": "${file}"
+            },
+            {
+                "type": "chrome",
+                "request": "launch",
+                "name": "explore: chrome",
+                "url": "http://localhost:8080",
+                "webRoot": "${workspaceFolder}/src",
+                "breakOnLoad": true,
+                "sourceMapPathOverrides": {
+                    "webpack:///src/*": "${webRoot}/*"
+                }
+            }
+        ],
+        "compounds": []
+    },
+  
+    "python.linting.enabled": false,
+   
+    "apicloud.port": "23450",
+   
+    "apicloud.subdirectories": "/apicloudproject"
+}

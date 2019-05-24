@@ -1,0 +1,250 @@
+.con_mp4 {
+    width: 1920px;
+    height: 100%;
+    background-color: #000;
+    position: fixed;
+    left: 50%;
+    top: 0;
+    margin-left: -960px;
+    z-index: 9999999;
+}
+
+.wapper{
+    width: 100%;
+    height: 4809px;
+}
+.con_part1 {
+    background: url('../img/百态王者/con_bg1.jpg');
+    width: 100%;
+    height: 613px;
+}
+
+.con_part2 {
+    width: 100%;
+    height: 859px;
+    position: relative;
+    
+    background: url("../img/百态王者/con_bg2.jpg");
+}
+.con_part2 .con_nav{
+    /* position: absolute; */
+    z-index:999 ;
+}
+#con_nav2>a{
+    position: absolute;
+    width: 248px;
+    height: 65px; 
+    z-index: 10010;
+}
+
+#con_nav2>#btn1{
+    left: 373px;
+    /* z-index: 100; */
+}
+#con_nav2>#btn2{
+    left: 640px;
+}
+#con_nav2>#btn3{
+    left: 1020px;
+}
+#con_nav2>#btn4{
+    left: 1268px;
+}
+.con_part2 .con_nav1 {
+    display: block;
+    width: 1903px;
+    position: absolute;
+    margin: 0 auto;
+    
+    margin-top: -69px;
+}
+
+.con_part2 .con_nav2 {
+    display: block;
+    width: 1903px;
+    position: absolute;
+    margin: 0 auto;
+    z-index: 9999;
+}
+.con_part2 ul {
+    position: absolute;
+    left: 50%;
+    margin-left: -796px;
+    bottom: 0;
+    z-index: 50;
+}
+
+.con_part2 ul li {
+    float: left;
+    margin-right: 2px;
+    width: 397px;
+    height: 793px;
+    cursor: pointer;
+}
+
+.con_part2 ul li:nth-child(1) {
+    background: url('../img/百态王者/gs_list1.jpg') no-repeat center top;
+}
+
+.con_part2 ul li:nth-child(2) {
+    background: url('../img/百态王者/gs_list2.jpg') no-repeat center top;
+}
+
+.con_part2 ul li:nth-child(3) {
+    background: url('../img/百态王者/gs_list3.jpg') no-repeat center top;
+}
+
+.con_part2 ul li:nth-child(4) {
+    background: url('../img/百态王者/gs_list4.jpg') no-repeat center top;
+}
+.con_part3{
+    background: url('../img/百态王者/con_bg3.jpg');
+    width: 100%;
+    height: 784px;
+}
+.con_part4{
+    background: url('../img/百态王者/con_bg4.jpg');
+    width: 100%;
+    height: 960px;
+}
+.all{
+    width: 700px;
+    height: 500px;
+    padding: 0px;
+    border: 5px solid RGB(141, 132, 123);
+    margin: 0 auto;
+    top: 40%;
+    position: relative;
+}
+.screen {
+    width: 700px;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+.screen li {
+    width: 700px;
+    height: 500px;
+    overflow: hidden;
+    float: left;
+}
+
+.screen ul {
+    position: absolute;
+    left: 0;
+    top: 0;
+    /*要足够宽才放到一行里*/
+    width: 3000px;
+}
+
+/* #arr {
+    display: none;
+} */
+
+#arr span {
+
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: -130px;
+    top: 40%;
+    margin-top: -50px;
+    background: #000;
+    cursor: pointer;
+    line-height: 100px;
+    text-align: center;
+    font-weight: bold;
+    font-family: '黑体';
+    font-size: 60px;
+    color: #fff;
+    /*透明度：这个是指全透明*/
+    opacity: 0.3;
+    border: 1px solid #fff;
+}
+#arr span:hover{
+    background-color:rgba(255, 255, 255, 0.3);
+}
+
+#arr #right {
+    /*距离父元素右边5像素*/
+    right: -130px;
+    /*代表把left的值清空（设置为默认值）*/
+    left: auto;
+}
+.con_part5{
+    background: url('../img/百态王者/con_bg5.jpg');
+    width: 100%;
+    height: 987px;
+    position: relative;
+}
+.con_part5 .yz_code1{
+    width: 178px;
+    height: 178px;
+    position: absolute;
+    background: url("../img/百态王者/yz_code1.jpg");
+    background-size: 100%;
+    margin-left: 695px;
+    margin-top: 655px;
+}
+.con_part5 .yz_code2{
+    width: 178px;
+    height: 178px;
+    position: absolute;
+    background: url("../img/百态王者/yz_code2.jpg");
+    background-size: 100%;
+    margin-left: 1010px;
+    margin-top: 655px;
+}
+.con_part5 .yz_code3{
+    width: 176px;
+    height: 40px;
+    position: absolute;
+    background: url("../img/百态王者/pt5_img1.png");
+    background-size: 100%;
+    margin-left: 695px;
+    margin-top: 836px;
+}
+.con_part5 .yz_code4{
+    width: 176px;
+    height: 40px;
+    position: absolute;
+    background: url("../img/百态王者/pt5_img1.png");
+    background-size: 100%;
+    margin-left: 1010px;
+    margin-top: 836px;
+}
+.con_part6{
+    background: url('../img/百态王者/con_bg6.jpg');
+    width: 100%;
+    height: 643px;
+    position: relative;
+}
+.con_part6 .logo{
+    position: absolute;
+    width: 100%;
+    height: 331px;
+    margin-top: 105px;
+    background: url('../img/百态王者/logo.png') center no-repeat;
+}
+.con_part6 .foot{
+    display: block;
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+    text-align: center;
+}
+.con_part6 .foot p{
+    display: block;
+    height: 38px;
+    font-size: 18px;
+    line-height: 38px;
+    color: #676767;
+    text-align: center;
+} 
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}

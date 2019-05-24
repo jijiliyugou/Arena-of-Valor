@@ -1,0 +1,68 @@
+body,
+h1,h2,h3,h4,
+p,
+ul,li,ol,dl,dd,dt,
+input,
+img,
+div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+input {
+    border: none;
+    outline: none;
+}
+
+i {
+    font-style: normal;
+}
+
+img {
+    border: none;
+    vertical-align: middle;
+}
+
+body {
+    font-size: 12px;
+    line-height: 1;
+}
+
+.clearfix::after {
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+ul,ol,dl,li {
+    list-style: none;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+@media screen and (width:320px) {
+    html {
+        font-size: 32px;
+    }
+}
+
+@media screen and (width:375px) {
+    html {
+        font-size: 37.5px;
+    }
+}
+
+@media screen and (width:414px) {
+    html {
+        font-size: 41.4px;
+    }
+}

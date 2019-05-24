@@ -1,0 +1,123 @@
+/* 头部介绍开始 */
+
+body {
+    background: url('../img/index.bg.jpg') no-repeat;
+    background-attachment: fixed;
+    background-position-y: 42px;
+}
+
+.top {
+    height: 42px;
+    width: 100%;
+    background-color: #fff;
+    border-top: 1px solid #b6b4b6;
+    border-bottom: 1px solid #b6b4b6;
+}
+
+.top_typePage {
+    width: 980px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top .top_left {
+    height: 40px;
+    display: flex;
+}
+
+.top h1 {
+    display: inline-block;
+}
+
+.top h1 a {
+    height: 42px;
+    width: 221px;
+    text-indent: -9999px;
+    display: inline-block;
+    background: url('../img/index.ost-bg.png') no-repeat 1px -40px;
+
+}
+
+
+.DNF {
+    display: inline-block;
+}
+
+.DNF>img {
+    height: 40px;
+    cursor: pointer;
+}
+
+.top_right {
+    display: flex;
+    line-height: 40px;
+}
+
+.top_right .top_protect {
+    width: 118px;
+    background: url('../img/index.logo.png') no-repeat left center;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.top_right .top_game {
+    width: 118px;
+    font-weight: 400;
+    cursor: pointer;
+    position: relative;
+}
+
+.top_game span {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    margin-top: -9px;
+    background: url(../img/index.ost-bg.png) no-repeat -147px -129px;
+
+}
+
+.top_right .top_game:hover span {
+    background-position-x: -167px;
+}
+
+.top_right .top_game:hover {
+    color: #ff4e00;
+}
+
+.top_nav {
+    height: 84px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.top_nav .typePage {
+    height: 84px;
+    display: flex;
+    align-items: center;
+}
+
+.top_nav .top_game_logo a {
+    width: 200px;
+    height: 54px;
+    display: inline-block;
+}
+
+.top_game_nav ul {
+    display: flex;
+    height: 84px;
+}
+
+.top_game_nav ul li {
+    cursor: pointer;
+    font-size: 19px;
+    color: #c9c9dd;
+    height: 15px;
+    line-height: 84px;
+    text-align:top;
+
+
+/* 头部介绍结束 */

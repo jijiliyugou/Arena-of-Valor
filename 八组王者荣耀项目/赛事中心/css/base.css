@@ -1,0 +1,69 @@
+/* 初始化样式文件开始*/
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+input,
+img {
+  margin: 0;
+  padding: 0;
+}
+ul,
+ol,
+dl
+ {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #646464;
+}
+body {
+  font: 12px/100% '微软雅黑';
+}
+input {
+  border: none;
+  outline: none;
+}
+img {
+  vertical-align: middle;
+}
+/* 清除浮动开始*/
+.clearfix::after {
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+  clear: both;
+}
+.clearfix {
+  *zoom: 1;
+}
+.clear {
+  clear: both;
+}
+/* 清除浮动结束*/
+/* 字体图标*/
+@font-face {
+  font-family: 'iconfont';
+  src: url('../iconfont/iconfont.eot');
+  src: url('../iconfont/iconfont.eot?#iefix') format('embedded-opentype'), url('../iconfont/iconfont.woff2') format('woff2'), url('../iconfont/iconfont.woff') format('woff'), url('../iconfont/iconfont.ttf') format('truetype'), url('../iconfont/iconfont.svg#iconfont') format('svg');
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* 这是初始化样式文件结束*/

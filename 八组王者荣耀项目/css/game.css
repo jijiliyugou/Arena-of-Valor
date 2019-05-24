@@ -1,0 +1,52 @@
+.skin_center {
+  width: 295px;
+  height: 528px;
+}
+.skin_center img {
+  width: 295px;
+}
+.skin_center .item_header {
+  position: relative;
+  zoom: 1;
+  margin-bottom: 16px;
+}
+.skin_center .item_header .skin_center .item_title {
+  width: 140px;
+  height: 25px;
+  background-position: 0 -144px;
+}
+.skin_center .tganime-slidein {
+  overflow: hidden;
+}
+.skin_center .tganime-slidein .item_subnav {
+  width: 293px;
+  height: 32px;
+  line-height: 29px;
+  background: #f5f5f5;
+  border-bottom: none;
+}
+
+
+.skin_center .tganime-slidein .item_subnav a {
+  width: 97px;
+  float: left;
+  font-size: 14px;
+  color: #999;
+  text-align: center;
+  border-bottom: 3px solid #f5f5f5;
+}
+.skin_center .tganime-slidein .item_subnav .on {
+  border-bottom: 3px solid #f3c258;
+  color: #333333;
+}
+.skin_center .tganime-slidein .item_subnav span {
+  width: 1px;
+  height: 20px;
+  overflow: hidden;
+  float: left;
+  background: #e1e1e1;
+  margin: 5px 0 0px;
+}
+.skin_center .tganime-slidein .imgNone {
+  display: none;
+}
